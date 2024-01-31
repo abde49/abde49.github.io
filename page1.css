@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Montserrat-Variable' ;
+    src: url(font/Montserrat-VariableFont_wght.ttf) format('truetype')}
+    @font-face {
+      font-family: 'Montserrat-Italic' ;
+      src: url(font/Montserrat-Italic-VariableFont_wght.ttf) format('truetype')}
+  
+  
+  
+  body{
+    background-color: #0a4d26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(rajalogo.png);mix-blend-mode: normal;background-repeat: no-repeat;background-position-x: 50%;
+    background-position-y: 50%;background-size: 40%;}
+  
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .img-container {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: -2.8px;
+    margin-right: -2.8px;
+    width: 200px;
+    vertical-align: top;
+    border-radius: 0px 0px 80px 80px;
+    animation-name: flow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -2s;
+    transition-timing-function: cubic-bezier(0,.57,1,.46);
+    box-shadow: 2px 2px 16px 2px rgba(0,0,0,0.5); ;}
+  
+  .second-animation {
+    animation-delay: -1.5s;
+  }
+  
+  .third-animation {
+    animation-delay: -1s; 
+  }
+  
+  .fourth-animation {
+    animation-delay: -0.5s; 
+  }
+  
+  .fifth-animation {
+    animation-delay: 0s; 
+  }
+  
+  .sixth-animation {
+    animation-delay: 0.5s; 
+  }
+    
+  .seventh-animation {
+    animation-delay: 1s;
+  }
+  
+  .img {
+    object-fit: cover;
+    width: 220px;
+    height: 100vh;
+    margin-top: -60px;
+  }
+  
+  
+  
+  @keyframes flow {
+    0% {height: 20%; border-radius: 0px 0px 30px 30px;}
+    50% {height: 90%; border-radius: 0px 0px 100px 100px;}
+    100% {height: 20%; border-radius: 0px 0px 30px 30px;}
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    #img-7 {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1028px) {
+    #img-1 {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 860px) {
+    #img-6 {
+      display: none;
+    }
+  }
+  .item1{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(246, 246, 246));
+        text-align: center;
+        border: 1px ;
+        width: 300px;
+        height:150px ;
+        transition-property: all;
+        transition-duration: 1.5s;
+      border-radius:30px ;
+  }
+  .item2{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(246, 246, 246));
+        text-align: center;
+        border: 1px ;
+        width: 300px;
+        height:150px ;
+        transition-property: all;
+        transition-duration: 1.5s;
+      border-radius:30px ;
+  }
+  .item3{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(246, 246, 246));
+        text-align: center;
+        border: 1px ;
+        width: 300px;
+        height:150px ;
+        transition-property: all;
+        transition-duration: 1.5s;
+      border-radius:30px ;
+  }
+  .item4{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(246, 246, 246));
+        text-align: center;
+        border: 1px ;
+        width: 300px;
+        height:150px ;
+        transition-property: all;
+        transition-duration: 1.5s;
+      border-radius:30px ;
+  }
+  .item1:hover {
+   transform: scale(1.3);background-color: rgb(255, 255, 255);
+  } 
+  .item2:hover {
+    transform: scale(1.3);background-color: rgb(255, 255, 255);
+   } 
+   .item3:hover {
+    transform: scale(1.3);background-color: rgb(255, 255, 255);
+   } 
+   .item4:hover {
+    transform: scale(1.3);background-color: rgb(255, 255, 255);
+   } 
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  button{
+    display: block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 45px;
+    transition-property:all ;
+    transition-duration: 1s; position: relative;
+    top: 40%;left: 45%;
+  }
+  button:hover {
+    background-color: #104f36; 
+    color: #fff;
+    border-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .Im{
+    width: 100%;
+    height:100% ;
+    border-radius: 10%;
+  }   
+  .image-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .image-container img {
+    flex-grow: 1;
+    max-width: 100%; 
+    height: auto; 
+  }
+  .title{position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    color: #f7f7f7;
+    font-size: 120px;
+    font-weight: 600;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);}
+              

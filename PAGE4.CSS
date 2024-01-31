@@ -1,0 +1,158 @@
+.body1{
+    background-color: #0a4d26;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+;}
+.bidio{padding: 5%;padding-left: 29%;}
+iframe{border-radius:40px;}
+
+button{
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 45px;
+  transition-property:all ;
+  transition-duration: 1s; 
+margin-bottom: 40%;margin-left:45%;}
+          .button:hover {
+            background-color: #ffffff; 
+            color: #000000;
+            border-color: #000000;
+            cursor: pointer;
+            transform: scale(1.1);background-color: rgb(255, 255, 255);padding-top: 40%;}
+          .Im{
+            width: 100%;
+            height:100% ;
+            border-radius: 10%;
+          }   
+            .item1:hover {
+                transform: scale(1.1);} 
+               .item1{
+                    text-align: center;text-transform: capitalize;
+                    width: 35%;
+                    height:35%;
+                    transition-property: inherit;
+                    transition-duration: 0.5s;
+              }
+              .container{
+                height: 300px;
+                width: 300px;
+                background-color: grey;
+               }
+                .img1{
+                    height: 200px;
+                    position: absolute;
+                    z-index: 10;
+                   
+                }
+                .img2{
+                    height: 100%;
+                    position: absolute;
+                    z-index: 20;
+                } .img3{
+                    height: 100%;
+                    position: absolute;
+                    z-index: 30;
+                }
+
+                * {
+                  box-sizing: border-box;
+                  margin: 0;
+                  padding: 0;
+                  font-family: Arial, Helvetica, sans-serif;
+              }
+              
+             
+              
+              .wrapper {
+                  width: 100%;
+                  height: 100vh;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+              }
+              
+              .container2{
+                  height: 400px;
+                  display: flex;
+                  flex-wrap: nowrap;
+                  justify-content: start;
+              }
+              
+              .card {
+                  width: 80px;
+                  border-radius: .75rem;
+                  background-size: cover;
+                  cursor: pointer;
+                  overflow: hidden;
+                  border-radius: 2rem;
+                  margin: 0 10px;
+                  display: flex;
+                  align-items: flex-end;
+                  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+                  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+              }
+              
+
+              .description p {
+                  color: #b0b0ba;
+                  padding-top: 5px;
+              }
+              
+              .description h4 {
+                  text-transform: uppercase;
+              }
+              
+              input {
+                  display: none;
+              }
+              
+              input:checked + label {
+                  width: 900px;height: 500px;
+              }
+              
+              input:checked + label .description {
+                  opacity: 1 !important;
+                  transform: translateY(0) !important;
+              }
+              
+              .card[for="c1"] {
+                  background-image: url(rajafans1.jpg);
+              }
+              .card[for="c2"] {
+                  background-image: url(rajafans2.jpg);
+              }
+              .card[for="c3"] {
+                  background-image: url(rajafans3.jpg);
+              }
+              .card[for="c4"] {
+                  background-image: url(rajafans4.jpeg);
+              }
+              
+#logo {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  right: 50px;
+  bottom: 10px;
+}
+
+.raja{
+    display: inline-block;
+    padding: 42px 25px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 45px;
+    transition-property:all ;
+    transition-duration: 1s; 
+   
+}
+.raja:hover {
+    background-image: url(palestine-national-flag.jpg); background-repeat: no-repeat;background-size: cover;
+    color: #000000;
+    border-color: #000000;
+    cursor: pointer;
+}
+.raja1{margin-left: 540px;}
